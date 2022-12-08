@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    height: 10%;
+    width: 100%;
+    background: #1a0e3b;
+    text-align: center;
+}
+nav{
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+ul li a{
+    color: rgb(158, 158, 158);
+    font-weight: bold;
+}
+ul li:last-child{
+    margin-left: -5px;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
